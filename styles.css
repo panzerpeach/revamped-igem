@@ -23,6 +23,10 @@
 
 #first-section{
   border-style: solid;
+  border-color: black;
+  background-color: #5384ff;
+  color: white;
+  padding: 20px 20px;
 }
 
 #icon {
@@ -45,18 +49,13 @@ text-align: left;
 font-size: 40pt;
 }
 
-#who {
+#content-header {
 text-align: center;
 font-size: 40pt;
 }
 
-#projects {
-  text-align: center;
-  font-size: 40pt;
-}
-
 #second-section {
-  background-color: #d63e69;
+  background-color: #ff7253;
   color: white;
   padding: 20px 20px;
 }
