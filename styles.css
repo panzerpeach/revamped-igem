@@ -1,17 +1,54 @@
-.button {
-    text-align: center;
-    width: 1  0%;
-    background-color: white;
+.nav-button {
+  display: inline-block;
+  text-align: center;
+  width: 10%;
+  background-color: #f8f8f8;
 }
 
-.nav-left {
+#nav-img {
+  float: left;
+}
+
+#navbar {
+  background-color: #f8f8f8;
+  width: 100%;
+  margin-left: 0%;
+  margin-right: 0%
+}
+
+.inline-block-container {
   display: inline-block
 }
 
-.nav-right {
-  display: inline-block
+.block-container {
+  display: block
+}
+
+#first-section{
+  border-style: solid;
+}
+
+#icon {
+  height: 40px;
+  width: 40px;
+}
+
+#icon-liner {
+  text-align: left;
+  font-size: 16pt;
 }
 
 #about {
+text-align: left;
+font-size: 40pt;
+}
+
+#who {
 text-align: center;
+font-size: 40pt;
+}
+
+#projects {
+  text-align: center;
+  font-size: 40pt;
 }
