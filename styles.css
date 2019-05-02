@@ -14,10 +14,12 @@
 }
 
 #navbar {
+  position: fixed;
   background-color: #f8f8f8;
   width: 100%;
   margin-left: 0%;
-  margin-right: 0%
+  margin-right: 0%;
+  z-index: 1;
 }
 
 #footer {
@@ -93,4 +95,9 @@ font-size: 40pt;
 
 .subteam-container{
   background-color: #6aff53;
+}
+
+#subteam-image {
+  height: 50px;
+  width: 50px;
 }
