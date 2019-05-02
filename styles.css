@@ -20,6 +20,21 @@
   margin-right: 0%
 }
 
+#footer {
+  background-image: url("images/footer.png");
+  height: 380px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.ft-button {
+  display: inline-block;
+  text-align: center;
+  width: 20%;
+  background-color: #f8f8f8;
+}
 
 #first-section{
   border-style: solid;
@@ -58,4 +73,13 @@ font-size: 40pt;
   background-color: #ff7253;
   color: white;
   padding: 20px 20px;
+}
+
+#portrait {
+  height: 100px;
+  width: 60px;
+}
+
+#team-member {
+  text-align: center;
 }
