@@ -29,11 +29,17 @@
   position: relative;
 }
 
+#nav-footer {
+  position: absolute;
+  top: 350px;
+}
+
 .ft-button {
   display: inline-block;
   text-align: center;
-  width: 20%;
-  background-color: #f8f8f8;
+  width: auto;
+  background-color: #ff7253;
+  color: whitesmoke;
 }
 
 #first-section{
@@ -80,3 +86,7 @@ font-size: 40pt;
   width: 110px;
 }
 
+#project-container {
+  border-style: solid;
+  border-color: black;
+}
