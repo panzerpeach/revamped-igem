@@ -1,3 +1,7 @@
+#content {
+  padding-top: 63px;
+}
+
 .nav-button {
   display: inline-block;
   text-align: center;
@@ -33,7 +37,7 @@
 
 #nav-footer {
   position: absolute;
-  top: 350px;
+  top: 355px;
 }
 
 .ft-button {
@@ -93,11 +97,20 @@ font-size: 40pt;
   border-color: black;
 }
 
-.subteam-container{
-  background-color: #6aff53;
+#subteam{
+  position: relative;
+  text-align: center;
+  color: white;
 }
 
 #subteam-image {
-  height: 50px;
-  width: 50px;
+  height: 100px;
+  width: 100px;
+}
+
+.subteam-image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
