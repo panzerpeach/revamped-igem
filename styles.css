@@ -9,6 +9,10 @@
   float: left;
 }
 
+.highlight {
+  border-bottom: 3px solid;
+}
+
 #navbar {
   background-color: #f8f8f8;
   width: 100%;
@@ -16,21 +20,19 @@
   margin-right: 0%
 }
 
-.inline-block-container {
-  display: inline-block
-}
-
-.block-container {
-  display: block
-}
 
 #first-section{
   border-style: solid;
 }
 
 #icon {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
+}
+
+#icon-container {
+  display: flex;
+  align-items: center;
 }
 
 #icon-liner {
@@ -51,4 +53,10 @@ font-size: 40pt;
 #projects {
   text-align: center;
   font-size: 40pt;
+}
+
+#second-section {
+  background-color: #7d608b;
+  color: white;
+  padding: 20px 20px;
 }
