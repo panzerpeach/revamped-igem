@@ -1,5 +1,17 @@
 .button {
     text-align: center;
-    width: 10%;
+    width: 1  0%;
     background-color: white;
+}
+
+.nav-left {
+  display: inline-block
+}
+
+.nav-right {
+  display: inline-block
+}
+
+#about {
+text-align: center;
 }
