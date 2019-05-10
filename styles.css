@@ -55,7 +55,14 @@
 #first-section{
   border-style: solid;
   border-color: black;
-  background-color: #5384ff;
+  /*background-color: #5384ff;*/
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(255, 0, 0, 0.45)
+    ),
+    url("images/charles.jpg");
+  background-size: cover;
+  min-height: 1200px;
   color: white;
   padding: 20px 20px;
 }
