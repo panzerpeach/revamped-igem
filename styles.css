@@ -104,14 +104,31 @@ font-size: 40pt;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
+#subteam-container {
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(126, 126, 126, 0.45)
+    ),
+    url("images/dna.gif");
+
+  padding-bottom: 20px;
+  padding-left: 30px;
+}
+
 #portrait {
   height: 140px;
   width: 110px;
 }
 
 #project-container {
+  background: linear-gradient(
+    rgba(34, 7, 7, 0.45), 
+    rgba(39, 10, 48, 0.45)
+    ),
+    url("images/dna.gif");
   border-style: solid;
   border-color: black;
+  text-align: center;
 }
 
 #subteam{
@@ -120,9 +137,36 @@ font-size: 40pt;
   color: white;
 }
 
+#subteam:hover {
+  background: linear-gradient(
+    rgba(34, 7, 7, 0.45), 
+    rgba(39, 10, 48, 0.45)
+    ),
+}
+
 #subteam-image {
   height: 200px;
   width: 160px;
+}
+
+#subteam-image:hover {
+  background: linear-gradient(
+    rgba(34, 7, 7, 0.45), 
+    rgba(39, 10, 48, 0.45)
+    ),
+}
+
+#subteams {
+  padding-left: 30px;
+  padding-top: 20px;
+}
+
+#team-header {
+  text-align: center;
+}
+
+#people {
+  padding-left: 100px;
 }
 
 .subteam-image-text {
@@ -133,5 +177,11 @@ font-size: 40pt;
 }
 
 #third-section {
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(126, 126, 126, 0.45)
+    ),
+    url("images/dna.gif");
   padding-top: 30px;
+  padding-bottom: 30px;
 }
