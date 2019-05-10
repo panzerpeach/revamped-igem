@@ -53,9 +53,6 @@
 }
 
 #first-section{
-  border-style: solid;
-  border-color: black;
-  /*background-color: #5384ff;*/
   background: linear-gradient(
     rgba(255, 0, 0, 0.45), 
     rgba(255, 0, 0, 0.45)
@@ -94,9 +91,17 @@ font-size: 40pt;
 }
 
 #second-section {
-  background-color: #ff7253;
-  color: white;
+  background: linear-gradient(
+    rgba(255, 0, 0, 0.45), 
+    rgba(126, 126, 126, 0.45)
+    ),
+    url("images/dna.gif");
+  background-size: cover;
+  background-position: 0% 70%;
+  min-height: 300px;
+  color: rgb(255, 255, 255);
   padding: 20px 20px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #portrait {
